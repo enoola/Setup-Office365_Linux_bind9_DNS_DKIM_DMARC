@@ -86,4 +86,4 @@ Later on, we will work here in conjonction with O365 instructions.
 
 We will come here later on ;).
 
-that's it for now you can go back to the main readme. [readme](../readme.md)  
+that's it for now you can go back to the main readme. [readme](/readme.md)  
