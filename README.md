@@ -12,7 +12,7 @@ Why this documentation ? :
 
 ### Let's start :  
  * Few infos and Screenshots of What you should have access to 
-	![Let's start](docs/startoverview.md)
+	[Verify you have what it takes](docs/startoverview.md)
 
 ### Configuration :  
  * Setup office 365 with a personnal owned domain name
