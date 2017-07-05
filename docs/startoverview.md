@@ -82,8 +82,13 @@ Later on, we will work here in conjonction with O365 instructions.
 ![Gandi Services Domains](GANDI_ServicesDomains.png)  
 
 3) Click on the domain you want to associate with O365, in my case mobilutils.fr  
-![Fandi mobilutils.fr details](GANDI_MobilutilsfrDetails.png)  
+![Gandi mobilutils.fr details](GANDI_MobilutilsfrDetails.png)  
 
 We will come here later on ;).
 
-that's it for now you can go back to the main readme. [readme](/readme.md)  
+that's it for now, if you have access to everything I have shown here you are good to go, if not you can either use your brain baring in mind you need :  
+* Office 365 Essentials accounts admin access
+* root access to a Linux box
+* have a domain you own for your O365 Mailbox  
+
+This being said, you can go back to the main readme file.

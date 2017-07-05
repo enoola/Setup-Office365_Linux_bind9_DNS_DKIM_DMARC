@@ -25,6 +25,9 @@ Why this documentation ? :
  * tuto to setup O365 : <https://blog.kaniski.eu/2014/07/office-365-and-bind/>  
  * DKIM Validator : <http://dkimvalidator.com/results>  
  * Setup SPF to prevent spoofing : <https://technet.microsoft.com/en-us/library/dn789058(v=exchg.150).aspx>  
+ * Google flush cache : <https://developers.google.com/speed/public-dns/cache>
+ * add domain to O365 : <https://technet.microsoft.com/en-us/library/office-365-domains.aspx>
+ * new domains O365 : <https://support.office.com/en-us/article/Add-a-domain-and-users-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US>  
 
 # Verify you are not consider as a :  
  * scatter : http://www.backscatterer.org/index.php 
