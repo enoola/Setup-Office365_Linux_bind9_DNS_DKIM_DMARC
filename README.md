@@ -15,7 +15,7 @@ Why this documentation ? :
 	[Verify you have what it takes](docs/startoverview.md)
 
 ### Configuration :  
- * Setup office 365 with a personnal owned domain name
+ * [Setup office 365 with a personnal owned domain name](docs/O365_AddDomainFirstSteps.md)
  * Setup DKIM (Domain Key Identified Mail) for Office 365
  * Setup DMARC (Domain-based Message Authentication, Reporting and Conformance (DMARC) for Office 365
 
