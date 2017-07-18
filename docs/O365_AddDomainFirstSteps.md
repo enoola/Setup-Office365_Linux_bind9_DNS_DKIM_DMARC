@@ -23,6 +23,7 @@ Go to Office 365 admin portal [O365 Admin portal]()
 ms11689905.msv1.invalid.    3600        IN      A       62.210.137.235
 @                             3600      IN      MX      37367   ms11689905.msv1.invalid.
 ```
+
 5. restart bind9
 
 ```bash
