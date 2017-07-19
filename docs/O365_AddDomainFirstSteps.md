@@ -92,7 +92,7 @@ PING enrollme.eu (62.210.137.235) 56(84) bytes of data.
 
  ![O365 add domain wizard s2](O365_AddDomain_WizardS2.png)
 
-15. on you linux box edit /etc/bind/db.enrollme.eu and add the below, then save
+15. on your linux box edit /etc/bind/db.enrollme.eu and add the below, then save
 
  ```bash
 ;;MICROSOFT STEP 1
