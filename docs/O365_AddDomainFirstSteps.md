@@ -54,15 +54,15 @@ ns      IN      A       62.210.137.235
 save and close.
 
 5. Login to your DNS provider (Gandi in my case)
-6. Go to your domain list (as shown in [startoverview](startoverview.md)
+6. Go to your domain list (as shown in [startoverview](startoverview.md) )
 7. Click on the domain you just bind to your server
-![Gandi enrollme.eu details](GANDI_enrollmeeu_details.png)
+ ![Gandi enrollme.eu details](GANDI_enrollmeeu_details.png)
 
 8. Click on Glue Record Management and add ns.yourdomain.ext, IP of your server, then click `Save`
-![Gandi enrollme.eu glue record](GANDI_DomainNameEnrollmeeuGlueRecordManagement.png)  
+ ![Gandi enrollme.eu glue record](GANDI_DomainNameEnrollmeeuGlueRecordManagement.png)  
 
-9. Now Go to Modify servers, do has below for your server, click submit
-![Gandi domain names enrollme.eu Update DNS](GANDI_DomainNamesEnrollmeeuUpdateDNS.png)  
+9. Now Go to Modify servers, do has below for your server, Click `Submit` : 
+ ![Gandi domain names enrollme.eu Update DNS](GANDI_DomainNamesEnrollmeeuUpdateDNS.png)  
 
 10. Wait a while, once you are able to ping yourdomain.ext then it is OK.
 
@@ -74,18 +74,22 @@ PING enrollme.eu (62.210.137.235) 56(84) bytes of data.
 64 bytes from 62-210-137-235.rev.poneytelecom.eu (62.210.137.235): icmp_seq=3 ttl=64 time=0.021 ms
 ```  
 
-11. Go to Office 365 admin portal [O365 Admin portal]()
+11. Go to Office 365 admin portal [O365 Admin portal](https://portal.office.com/adminportal/home#/homepage)  
+
  ![O365 admin icon](O365_AdminIcon.png)  
 
 12. Click on `Settings`, then `Domains`  
+
  ![O365 admin portal settings](O365_AdminPortalSettings.png)   
   
  ![O365 admin portal domains](O365_AdminPortalAddDomains.png)  
 
-13. Click on `+Add domain` and put your domain `enrollme.eu` in my case 
+13. Click on `+Add domain` and put your domain `enrollme.eu` in my case  
+
  ![O365 add a domain](O365_AdminPortalAddADomain.png) 
 
 14. Click Next, and Click on MX Record, then Verify :  
+
  ![O365 add domain wizard s2](O365_AddDomain_WizardS2.png)
 
 15. on you linux box edit /etc/bind/db.enrollme.eu and add the below, then save
