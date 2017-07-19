@@ -16,11 +16,12 @@ Why this documentation ? :
 
 ### Configuration :  
  * [Setup office 365 with a personnal owned domain name](docs/O365_AddDomainFirstSteps.md)
- * Setup DKIM (Domain Key Identified Mail) for Office 365
- * Setup DMARC (Domain-based Message Authentication, Reporting and Conformance (DMARC) for Office 365
+ * [Setup Mail Account with our new binded domain](docs/O365_AddUserOnNewDomain.md)
+ * [Setup Linux DNS record DKIM (Domain Key Identified Mail) for Office 365](docs/O365_SetupDKIM.md)
+ * [Setup Linux DNS record DMARC ( Domain-based Message Authentication, Reporting and Conformance ) for Office 365](O365_SetupDMARCWithLinux.md)
 
 
-### Useful documentations to achieve this :    
+### Useful documentations to achieve this tuto :    
  * Setup DKIM for office 0365 : <https://technet.microsoft.com/en-gb/library/mt695945(v=exchg.150).aspx>  
  * tuto to setup O365 : <https://blog.kaniski.eu/2014/07/office-365-and-bind/>  
  * DKIM Validator : <http://dkimvalidator.com/results>  
@@ -28,8 +29,11 @@ Why this documentation ? :
  * Google flush cache : <https://developers.google.com/speed/public-dns/cache>
  * add domain to O365 : <https://technet.microsoft.com/en-us/library/office-365-domains.aspx>
  * new domains O365 : <https://support.office.com/en-us/article/Add-a-domain-and-users-to-Office-365-6383f56d-3d09-4dcb-9b41-b5f5a5efd611?ui=en-US&rs=en-US&ad=US>  
-
-# Verify you are not consider as a :  
+ * setup DMARC : <https://technet.microsoft.com/en-us/library/mt734386(v=exchg.150).aspx>
+ * DMARC explanation : <https://blog.returnpath.com/how-to-explain-dmarc-in-plain-english/>
+ * DMARC organization : <https://dmarc.org/overview/>  
+ 
+### Verify the IP of your server' provider is not considered as a :  
  * scatter : http://www.backscatterer.org/index.php 
  * spammer : http://www.uceprotect.net/en/rblcheck.php
 
